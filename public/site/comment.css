@@ -1,0 +1,175 @@
+    .comment-box {
+        position: relative;
+        margin: 20px auto;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    .menu-icon {
+        position: relative;
+        margin-left: auto;
+        cursor: pointer;
+        margin-left: 630px;
+        margin-top: -7px;
+    }
+
+    .dropdown-menu {
+        top: 20px;
+        left: -90px;
+    }
+
+    .dropdown-item {
+        cursor: pointer;
+    }
+
+    .dropdown-item:hover {
+        background-color: #9b9e9c;
+    }
+
+    .comment-form textarea {
+        width: calc(96% - 100px);
+        color: white;
+        background-color: black;
+        border: none;
+        border-radius: 5px;
+        box-sizing: border-box;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .comment-form button {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 20px;
+    }
+
+    .feed {
+        padding: 20px;
+    }
+    .error-message {
+        font-size: 16px;
+        margin-left: 12px;
+    }
+
+    .like-count {
+        color: #ff0000;
+        margin-left: -35px;
+        margin-top: 20px;
+    }
+
+    .post img {
+        width: 100%;
+        height: 60%;
+        border-radius: 20px;
+    }
+
+    .comment-count {
+        margin-top: -50px;
+        margin-left: -25px;
+        font-size: 18px;
+        color: #888;
+    }
+
+    .reply-count1 {
+        margin-left: 20px;
+        font-size: 18px;
+        color: white;
+    }
+
+    .latest-like p {
+        font-size: 15px;
+    }
+
+    .fa-comment {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: -5px;
+        color: white;
+    }
+
+    .like-icon.liked span {
+        color: red;
+    }
+
+    .likes-list {
+        margin-top: 10px;
+    }
+
+    .like-icon.liked .material-symbols-outlined {
+        color: red;
+    }
+
+    .post-icons span {
+        margin-right: -10px;
+        padding: 10px;
+        color: white;
+        margin-top: -25px;
+    }
+
+    .delete-icon {
+        float: right;
+        margin-top: -40px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .user-profile3 {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .user-profile3 img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .user-profile3 .username{
+     font-size: 17px;
+     font-weight:bold;
+    }
+
+    .post {
+        background-color: #101012;
+        padding: 20px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        width: 830px;
+        margin: auto;
+        margin-top: 13px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        box-sizing: border-box;
+    }
+    
+    .post p {
+        color: #ffffff;
+        margin-top: -10px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .user-profile3 p {
+        margin-left: 50px;
+        margin-top: -10px;
+        color: #888;
+        font-size: 14px;
+    }
+
+    .post-icons {
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .post-icons span {
+        margin-right: 10px;
+        padding: 10px;
+        color: white;
+    }

@@ -1,0 +1,90 @@
+.edit-profile-container {
+    background-color: #1c1e21;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.large-input {
+    height: 150px;
+}
+
+.large-input textarea {
+    height: auto;
+}
+
+.edit-profile-container h4 {
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    font-size: 1.05rem;
+}
+
+.form-group .col-form-label {
+    font-size: 1.05rem;
+    color: white;
+}
+
+.form-group .form-control {
+    font-size: 1.05rem;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.edit-profile .save-button {
+    font-size: 1.05rem;
+    background-color: #819de6;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+.edit-profile .save-button:hover {
+    background-color: #5a7bc5;
+}
+
+.edit-profile {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #101012;
+}
+
+.edit-profile-container .form-group {
+    margin-bottom: 15px;
+}
+
+.edit-profile-container .form-control-file {
+    background-color: #444;
+    color: white;
+    border: none;
+}
+
+.edit-profile-container label {
+    color: white;
+}
+
+.edit-heading {
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.edit-profile-container {
+    padding: 40px;
+}

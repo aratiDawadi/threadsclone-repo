@@ -1,0 +1,147 @@
+.main-content h3#search-results {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.main-content .search_header h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.search {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.search_header {
+  position: sticky;
+  padding: 15px 20px;
+  z-index: 100;
+}
+
+.search_header h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.list-group-item {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.list-group-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.list-group-item .info {
+  flex: 1;
+}
+
+.view-button {
+  background-color: #3f04ed;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.view-button:hover {
+  background-color: #8080ff;
+  text-decoration: none;
+  color: #fff;
+}
+
+.username1 {
+  font-size: 17px;
+  color: rgb(105 124 137);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.list-group-item .info p {
+  margin-bottom: -5px;
+}
+
+.pagination-container .btn {
+  background-color: #101012;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+.pagination-container .btn:disabled {
+  background-color: #101012;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  padding: 10px 0;
+}
+
+.pagination-container .page-number {
+  margin: 0 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e2e8f0;
+  border-radius: 25px;
+  padding: 8px 15px;
+  background-color: black;
+  width: 100%;
+  width: calc(100% - 20px);
+  margin: 0 auto 20px auto;
+}
+
+.search-icon {
+  margin-right: 8px;
+  color: #64748b;
+}
+
+.searchbar_input {
+  flex: 1;
+  border-radius: 15px;
+  height: 40px;
+  border: none;
+  background-color: black;
+  padding: 8px;
+  font-size: 16px;
+  color: white;
+  outline: none;
+}
+
+.searchbar_input::placeholder {
+  color: #64748b;
+}

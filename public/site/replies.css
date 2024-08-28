@@ -1,0 +1,95 @@
+.post {
+    background-color: #101012;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 830px;
+    margin: auto;
+    margin-top: 13px;
+}
+
+.post p {
+    color: #ffffff;
+    margin-top: -10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: pre-wrap;
+
+}
+.user-profile3 .username {
+    font-size: 17px;
+    font-weight: bold;
+}
+.feed{
+    padding: 20px;
+}
+
+.user-profile3 p {
+    margin-left: 60px;
+    margin-top: -10px;
+    color: #888;
+    font-size: 14px;
+}
+
+.fa-comment {
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.post-icons span {
+    margin-right: -10px;
+    padding: 10px;
+    color: white;
+    margin-top: -25px;
+}
+
+.post-icons {
+    margin-top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.post-icons a {
+    text-decoration: none;
+}
+.error-message {
+    font-size: 16px;
+    margin-left: 12px;
+}
+
+.delete-icon {
+    float: right;
+    margin-top: -40px;
+    color: white;
+    cursor: pointer;
+}
+
+.comment-box {
+    position: relative;
+    margin: 20px auto;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.comment-form textarea {
+    width: calc(96% - 100px);
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.comment-form button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 33px;
+}
